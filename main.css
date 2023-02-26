@@ -1,6 +1,50 @@
-.first
-{
+.container{
+    margin-top: 80px;
+}
+
+
+.container .first,.second,.third{
     background-color: black;
-    height: 2px;
+    border-radius: 20px;
+    height: 3px;
+    width: 40%;
+    margin-left: 28%;
+    margin-top: 20px
+}
+.name{
+    margin-left: 70%;
+}
+.down-button{
+    background-color: yellow;
+    width: 60px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 28%;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
     
+}
+
+.up-button{
+    background-color: rgb(75, 188, 75);
+    width: 60px;
+    height: 40px;
+    border-radius: 8px;
+    margin-left: 28%;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.block{
+    margin:3px;
+}
+
+.lift{
+    height: 60px;
+    width: 50px;
+    background-color: rgb(63, 151, 177);
+    margin-left: 35%;
+    border-radius: 3px;
 }
